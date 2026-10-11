@@ -1,0 +1,32 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='620' viewBox='0 0 900 620'>
+<rect width='900' height='620' fill='white'/>
+<text x='85' y='28' font-size='21' font-weight='bold'>Smart pointer comparison</text>
+<text x='85' y='51' font-size='13'>Raw (blue)   UniquePtr (green)   SharedPtr (orange)</text>
+<text x='85' y='75' font-size='18' font-weight='bold'>Elapsed time (ms)</text>
+<path d='M85 95 V285 H845' fill='none' stroke='#444'/>
+<text x='8' y='100' font-size='12'>5127.94</text>
+<text x='38' y='289' font-size='12'>0</text>
+<polyline fill='none' stroke='#2563eb' stroke-width='3' points='85.00,285.00 237.00,285.00 389.00,284.89 541.00,283.92 693.00,276.04 845.00,202.49 '/>
+<polyline fill='none' stroke='#16a34a' stroke-width='3' points='85.00,285.00 237.00,285.00 389.00,284.89 541.00,284.02 693.00,276.53 845.00,184.83 '/>
+<polyline fill='none' stroke='#ea580c' stroke-width='3' points='85.00,285.00 237.00,285.00 389.00,284.82 541.00,283.15 693.00,269.13 845.00,95.00 '/>
+<text x='85.00' y='304' font-size='11' text-anchor='middle'>10</text>
+<text x='237.00' y='304' font-size='11' text-anchor='middle'>1000</text>
+<text x='389.00' y='304' font-size='11' text-anchor='middle'>100000</text>
+<text x='541.00' y='304' font-size='11' text-anchor='middle'>1000000</text>
+<text x='693.00' y='304' font-size='11' text-anchor='middle'>10000000</text>
+<text x='845.00' y='304' font-size='11' text-anchor='middle'>100000000</text>
+<text x='85' y='355' font-size='18' font-weight='bold'>Estimated memory for N live objects (MiB)</text>
+<path d='M85 375 V565 H845' fill='none' stroke='#444'/>
+<text x='8' y='380' font-size='12'>2670.29</text>
+<text x='38' y='569' font-size='12'>0</text>
+<polyline fill='none' stroke='#2563eb' stroke-width='3' points='85.00,565.00 237.00,565.00 389.00,564.92 541.00,564.19 693.00,556.86 845.00,483.57 '/>
+<polyline fill='none' stroke='#16a34a' stroke-width='3' points='85.00,565.00 237.00,565.00 389.00,564.92 541.00,564.19 693.00,556.86 845.00,483.57 '/>
+<polyline fill='none' stroke='#ea580c' stroke-width='3' points='85.00,565.00 237.00,565.00 389.00,564.81 541.00,563.10 693.00,546.00 845.00,375.00 '/>
+<text x='85.00' y='584' font-size='11' text-anchor='middle'>10</text>
+<text x='237.00' y='584' font-size='11' text-anchor='middle'>1000</text>
+<text x='389.00' y='584' font-size='11' text-anchor='middle'>100000</text>
+<text x='541.00' y='584' font-size='11' text-anchor='middle'>1000000</text>
+<text x='693.00' y='584' font-size='11' text-anchor='middle'>10000000</text>
+<text x='845.00' y='584' font-size='11' text-anchor='middle'>100000000</text>
+<text x='85' y='603' font-size='12'>Time uses batches of up to 4096. Memory excludes allocator overhead.</text>
+</svg>
